@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | India</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+           
+            background-image: url( https://wallpapers.com/images/file/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+            justify-content: space-around;
+            color: aliceblue;
+            height:100vh;
+            width:100vw;
+          
+           
+        }
+        header > nav{
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            justify-content:space-between;
+           
+            
+        }
+        header > nav >div:nth-child(1){
+            padding-left: 220px;
+            padding-top: 20px;
+        }
+        header > nav >div:nth-child(2)
+        {
+            padding-right: 40px;
+            display: flex;
+           gap:6px;
+           align-items: center;
+           justify-content: flex-end;
+           padding-top: 10px;
+           
+        }
+        
+        main{
+            width: 100vw;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main > div{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            gap: 20px;
+            
+        }
+        h1{
+            font-size: 55px;
+        }
+          
+        
+        #user input{
+            background-color: #FF0000;
+            color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            border-radius: 5px;
+            height: 35px;
+            width: 100px;
+            font-size: 15px;
+               
+        }
+        h3{
+            font-size: 28px;
+        }
+        p{
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body>
+    <header >
+       <nav>
+        <div>
+        <img src="./images/th-removebg-preview.png" alt="netflix-log" height="60px" width="180px"  >
+       </div>
+       <div  id="user">
+        <div id="button">
+            <input type="button" value="Sign In">
+        </div>
+        <div id="button">
+            <input type="button" value="Register">
+        </div>
+    </nav>
+    </header>
+    
+    <main>
+        <div>
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3 >Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+    </main>
+    
+</body>
+</html>
